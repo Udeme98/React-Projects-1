@@ -22,7 +22,7 @@ const QRCodeGenerator = () => {
             value={input}
             placeholder="Enter your value here.."
             onChange={(e) => setInput(e.target.value)}
-            style={{ marginRight: "5px" }}
+            style={{ marginRight: "5px", backgroundColor: "bisque" }}
           />
           <button
             onClick={handleGenerateQrCode}
