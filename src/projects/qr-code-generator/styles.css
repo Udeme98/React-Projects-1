@@ -1,0 +1,9 @@
+body {
+  background-color: bisque;
+}
+
+.qr-code {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
